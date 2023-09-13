@@ -4,7 +4,7 @@ import './index.css'
 export default function Button() {
   return (
     <div className='container'>
-      <button className='button-default button2'>Button 2</button>
+        <button className='button-default button3'>button 3</button>
     </div>
   )
 }

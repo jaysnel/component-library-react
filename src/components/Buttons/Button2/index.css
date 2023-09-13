@@ -1,24 +1,7 @@
 @import url('../../../style.css');
 
-.button2{
-  position: relative;
-  height: 65px;
-  width: 210px;
-  margin: 0 40px;
-  font-size: 23px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  border-radius: 5px;
-  text-transform: uppercase;
-  border: 1px solid transparent;
-  outline: none;
-  cursor: pointer;
-  background: var(--primary-color1);
-  overflow: hidden;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2), 0 -6px 10px var(--primary-color1);
-  transition: 0.6s;
-}
 .button2 {
+    position: relative;
   color: var(--primary-color2);
   border-color: var(--primary-color2);
 }
@@ -49,6 +32,5 @@
 }
 .button2:hover{
   color: var(--primary-color2);
-  border-color: var(--primary-color2);
   background: var(--primary-color3);
 }
