@@ -2,4 +2,4 @@
 
 Storybook Link coming soon.
 
-This is a componet library built using both Custom CSS and tailwind.
+This is a componet library built with pure CSS.
