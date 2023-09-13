@@ -34,12 +34,12 @@
 }
 .button2:before{
   width: 60px;
-  background: var(--primary-accent);
+  background: var(--primary-color2);
   transform: translateX(-130px) skewX(-45deg);
 }
 .button2:after{
   width: 30px;
-  background: var(--primary-accent);
+  background: var(--primary-color3);
   transform: translateX(-130px) skewX(-45deg);
 }
 .button2:hover:before,
