@@ -3,6 +3,13 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "https://github.com/jaysnel/component-library-react",
+  build: {
+    lib: {
+      entry: 'index.html',
+      formats: ['cjs', 'es'],
+    },
+    outDir: './dist'
+  },
+  base: "/component-library-react/",
   plugins: [react()],
 })
