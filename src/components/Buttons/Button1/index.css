@@ -1,11 +1,4 @@
-.container1 {
-  max-height: 100%;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  -webkit-align-items: center;
-}
+@import url('../../../style.css');
 
 .button1 {
   position: relative;
@@ -29,5 +22,5 @@
   cursor: pointer;
 }
 .button1:hover.button-style1 {
-  background-color: #b7b7b7;
+  background-color: var(--primary-color3);
 }
