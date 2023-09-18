@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://github.com/jaysnel/component-library-react",
-  "main": "./storybook-static/index.html",
+  "main": "./storybook-static",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
