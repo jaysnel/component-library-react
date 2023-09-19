@@ -2,6 +2,7 @@ import React from 'react'
 import Button1 from './Button1/button'
 import Button2 from './Button2/button'
 import Button3 from './Button3/button'
+import Button4 from './Button4/button'
 
 export default function ButtonList() {
   return (
@@ -9,6 +10,7 @@ export default function ButtonList() {
         <Button1 />
         <Button2 />
         <Button3 />
+        <Button4 />
     </div>
   )
 }

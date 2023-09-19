@@ -1,10 +1,10 @@
 import React from 'react'
 import './index.css'
 
-export default function Button3() {
+export default function Button3({ buttonClass, buttonId }) {
   return (
     <div className='container'>
-        <button className='button-default button3'>3</button>
+        <button id={buttonId || 'button3'} className={buttonClass || 'button-default'}>3</button>
     </div>
   )
 }
