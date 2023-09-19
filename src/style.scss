@@ -5,12 +5,17 @@
     --primary-accent: #B8B42D;
 }
 
+#storybook-root {
+  width: 100vw;
+  height: 100vh;
+}
+
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    -webkit-align-items: center;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 
   .button-default {
     height: 65px;
@@ -35,4 +40,5 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    padding-top: 50px;
   }
