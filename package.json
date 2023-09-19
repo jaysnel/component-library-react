@@ -4,11 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://github.com/jaysnel/component-library-react",
-  "main": "./storybook-static/index.html",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "vite build && gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",

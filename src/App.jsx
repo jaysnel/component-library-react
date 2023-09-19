@@ -6,7 +6,7 @@ function App() {
     <>
       <div>
         <h1>Component Library Collection</h1>
-        <p>Storybook Link coming soon.</p>
+        <a href="https://main--6508db59c01ba56d8f28e200.chromatic.com/" target="_blank">View Storybook</a>
         <p>This is a componet library built using both Custom CSS and tailwind CSS.</p>
         <ButtonList />
       </div>
