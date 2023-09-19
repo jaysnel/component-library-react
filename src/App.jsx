@@ -17,7 +17,7 @@ function App() {
     <>
       <div className='home-page'>
         <h1>Component Library Collection</h1>
-        <p>This is a component library built using pure CSS.</p>
+        <p>This is a component library with animations built using pure CSS</p>
         <div className='storybook-link'>
         <a href="https://main--6508db59c01ba56d8f28e200.chromatic.com/" target="_blank">View Storybook</a>
         </div>
