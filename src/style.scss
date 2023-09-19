@@ -3,6 +3,7 @@
     --primary-color2: #919191;
     --primary-color3: #b7b7b7;
     --primary-accent: #B8B42D;
+    --primary-dark: #5A5A5A;
 }
 
 .home-page {
@@ -19,6 +20,10 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+
+.btn {
+  color: var(--primary-dark);
 }
 
   .button-default {

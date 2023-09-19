@@ -2,7 +2,7 @@
 
 #button4 {
     box-shadow: 0 0 40px 40px var(--primary-color1) inset;
-    border: 1px solid var(--primary-color3);
+    border: 1px solid var(--primary-dark);
     transition: all 500ms ease-in-out;
 }
 

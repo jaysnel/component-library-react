@@ -1,8 +1,7 @@
 @import url('../../../style.css');
 
 #button2 {
-    position: relative;
-  color: var(--primary-color2);
+  position: relative;
   border-color: var(--primary-color2);
 }
 #button2:before, #button2:after{

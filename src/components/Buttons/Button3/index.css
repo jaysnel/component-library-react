@@ -1,7 +1,6 @@
 @import url('../../../style.css');
 
 #button3 {
-    color: var(--primary-color2);
     box-sizing: border-box;
     transform: translatey(0px);
     animation: float 4s ease-in-out infinite;
