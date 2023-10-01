@@ -1,0 +1,48 @@
+@import url('../../../style.css');
+
+#button5 {
+    color: var(--primary-dark);
+    background-color: var(--primary-color3);
+    border: none;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+#button5:hover {
+  background: transparent;
+  color: var(--primary-dark);
+}
+#button5:hover:before,
+#button5:hover:after {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  width: 100%;
+}
+#button5:before,
+#button5:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 0px;
+  height: 3px;
+  background: var(--primary-color2);
+  transition: all 0.4s ease;
+}
+#button5:after {
+  top: inherit;
+  left: inherit;
+  bottom: 0;
+  right: 0;
+}
+#button5 {
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 1rem 3rem 1rem 3rem;
+  text-transform: uppercase;
+  font-family: "Lato";
+  font-size: 1.5em;
+}
